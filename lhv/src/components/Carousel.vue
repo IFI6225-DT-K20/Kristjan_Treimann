@@ -16,7 +16,7 @@ export default {
     return {
       items: [
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
+          src: '../assets/images/1.png'
         },
         {
           src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg'
