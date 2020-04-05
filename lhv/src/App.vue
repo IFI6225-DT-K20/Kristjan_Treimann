@@ -1,7 +1,8 @@
 <template>
   <v-app>
     <v-content>
-      <Header/>
+      <Header />
+      <News />
       <Links />
     </v-content>
     <Carousel />
@@ -12,6 +13,7 @@
 import Header from './components/Header'
 import Links from './components/Links'
 import Carousel from './components/Carousel'
+import News from './components/News'
 
 export default {
   name: 'App',
@@ -19,7 +21,8 @@ export default {
   components: {
     Links,
     Carousel,
-    Header
+    Header,
+    News
   },
 
   data: () => ({
